@@ -1,0 +1,50 @@
+.title {
+  font-weight: 800;
+  max-width: 600px;
+  color: #0062cb;
+}
+
+.hero {
+  background-color: #fff;
+  border-radius: 20px;
+  border: none;
+}
+
+.lead {
+  font-size: 16px;
+  color: #555555;
+}
+
+img {
+  max-width: 400px;
+  width: 100%;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+  border-radius: 6px;
+  transition: ease-in-out 0.5s;
+}
+
+.btn-primary:hover {
+  background-color: #0062cb;
+  transition: ease-in-out 0.5s;
+}
+
+.btn-outline-secondary {
+  background-color: #fff;
+  border: solid 3px;
+  border-color: #0062cb;
+  color: #0062cb;
+  border-radius: 6px;
+  transition: ease-in-out 0.5s;
+}
+
+.btn-outline-secondary:hover {
+  background-color: #0062cb;
+  color: #fff;
+  border: solid 3px;
+  border-color: #0062cb;
+  transition: ease-in-out 0.5s;
+}
