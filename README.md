@@ -1,15 +1,22 @@
 # 🛡️ NovaTech - Soluções em Cybersegurança
 
 Bem-vindo ao repositório oficial da **NovaTech**! 🚀  
-Somos uma **empresa fictícia** especializada em fornecer soluções de cybersegurança para proteger seus dados, sistemas e infraestrutura contra ameaças cibernéticas. 💻🔒
+Este projeto simula o site institucional de uma empresa fictícia de cybersegurança, desenvolvido com foco em responsividade, organização e estética. 💻🔒
 
 ---
 
 ## 🌐 Sobre o Projeto
 
-A **NovaTech** foi fundada em 2010 com a missão de proteger empresas de todos os tamanhos contra ataques cibernéticos. Desde então, nos tornamos referência no mercado, oferecendo serviços de consultoria, monitoramento 24/7, treinamentos e soluções personalizadas para garantir a segurança da sua empresa. 🏢💡
+### 🎯 Objetivo
+Desenvolver um site responsivo com quatro páginas utilizando o framework **Bootstrap**, simulando um website institucional para uma empresa fictícia ou inspirada em empresas reais do setor de tecnologia. O projeto será entregue por meio de um repositório público no GitHub.
 
-Este projeto simula o site de uma empresa de cybersegurança, apresentando nossos serviços, tecnologias e valores. 🌍🔐
+### 📋 Descrição da Atividade
+Este site institucional foi criado com **HTML**, **CSS** e **Bootstrap**, contendo quatro páginas que simulam a presença online de uma empresa de tecnologia. O foco foi garantir uma experiência responsiva e visualmente atraente, com informações relevantes para o público-alvo. As páginas incluem:
+
+1. **Início**: Apresentação da empresa e seus valores.
+2. **Sobre**: Descrição dos serviços oferecidos.
+3. **Serviços**: Trajetória e conquistas da empresa.
+4. **Contatos**: Formulário para contato e informações de localização.
 
 ---
 
@@ -42,7 +49,3 @@ Utilizamos as melhores ferramentas e tecnologias do mercado para garantir a segu
 Este projeto está licenciado sob a **MIT License**. Consulte o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 ---
-
-## 🚨 Aviso
-
-A **NovaTech** é uma **empresa fictícia** criada para fins educacionais e de portfólio. Este projeto não está associado a nenhuma empresa real de cybersegurança.
