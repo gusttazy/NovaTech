@@ -1,32 +1,33 @@
-# 🛡️ NovaTech - Soluções em Cybersegurança
+# 🛡️ NovaTech - Protegendo Seu Mundo Digital
 
-### 🎯 Objetivo
-Desenvolver um site responsivo com quatro páginas utilizando o framework **Bootstrap**, simulando um website institucional para uma empresa fictícia ou inspirada em empresas reais do setor de tecnologia. O projeto será entregue por meio de um repositório público no GitHub.
+## 🌍 Sobre a NovaTech
+A **NovaTech** é uma empresa fictícia especializada em **cibersegurança**, dedicada a proteger dados, sistemas e informações contra ameaças digitais. Nosso compromisso é fornecer soluções inovadoras que garantam um ambiente digital seguro para empresas e indivíduos.
 
-### 📋 Descrição da Atividade
-Este site institucional foi criado com **HTML**, **CSS** e **Bootstrap**, contendo quatro páginas que simulam a presença online de uma empresa de tecnologia. O foco foi garantir uma experiência responsiva e visualmente atraente, com informações relevantes para o público-alvo. As páginas incluem:
+Este site institucional foi desenvolvido para simular a presença online de uma empresa do setor de tecnologia, apresentando nossos serviços, valores e formas de contato de maneira responsiva e atrativa.
 
-1. **Início**: Apresentação da empresa e seus valores.
-2. **Sobre**: Descrição dos serviços oferecidos.
-3. **Serviços**: Trajetória e conquistas da empresa.
-4. **Contatos**: Formulário para contato e informações de localização.
+---
+
+## 🚀 Funcionalidades do Site
+Este site responsivo foi desenvolvido com **HTML**, **CSS** e **Bootstrap** e conta com quatro páginas essenciais:
+
+1. **Início** 🏠 - Visão geral da empresa e nossa missão no mundo digital.
+2. **Sobre** 🔍 - Quem somos, nossa equipe e propósito na cibersegurança.
+3. **Serviços** 🔒 - Soluções especializadas para proteger sua empresa contra ameaças cibernéticas.
+4. **Contato** 📩 - Formulário para suporte e informações de localização.
+
+Nosso objetivo é proporcionar uma experiência fluida e informativa, permitindo que os visitantes compreendam a importância da segurança digital de forma clara e objetiva.
 
 ---
 
 ## 🛠️ Tecnologias Utilizadas
+Empregamos tecnologias modernas para garantir um site seguro e responsivo:
 
-Utilizamos as melhores ferramentas e tecnologias do mercado para garantir a segurança dos nossos clientes:
-
-- **🔐 Criptografia Avançada**: Proteção de dados sensíveis.
-- **🖥️ Firewalls e Antivírus**: Defesa contra malware e ataques externos.
-- **📈 Análise de Dados**: Identificação de padrões e comportamentos suspeitos.
-- **🤖 Inteligência Artificial**: Detecção proativa de ameaças.
-- **☁️ Segurança em Nuvem**: Proteção para infraestruturas cloud.
+- **HTML5** 🏗️ - Estrutura semântica e acessível.
+- **CSS3** 🎨 - Estilização moderna e responsiva.
+- **Bootstrap 5** ⚡ - Design dinâmico e adaptável a diferentes dispositivos.
 
 ---
 
-## 📄 Licença
-
+## 📜 Licença
 Este projeto está licenciado sob a **MIT License**. Consulte o arquivo [LICENSE](LICENSE) para mais detalhes.
 
----
