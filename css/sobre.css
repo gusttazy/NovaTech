@@ -1,3 +1,47 @@
+.hero,
+.container {
+  margin-bottom: 4rem;
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+  background-color: #f8f9fa !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1rem;
+}
+
+.icon-square i {
+  font-size: 2rem;
+  color: #000;
+}
+
+h1,
+h2,
+h3 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.title-square {
+  color: #fff;
+}
+
+.subtitle-square {
+  color: #ffc107;
+}
+
+p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #333;
+}
+
 .history-card,
 .goals-card {
   background-color: #fff;
@@ -15,8 +59,8 @@
 
 .history-card:hover,
 .goals-card:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(255, 255, 255, 0.15);
 }
 
 .history-card h3,
@@ -75,57 +119,15 @@
   color: #007bff;
 }
 
-.hero,
-.container {
-  margin-bottom: 4rem;
-}
-
-.icon-square {
-  width: 3rem;
-  height: 3rem;
-  border-radius: 0.75rem;
-  background-color: #f8f9fa !important;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-right: 1rem;
-}
-
-.icon-square i {
-  font-size: 2rem;
-  color: #000;
-}
-
-h2,
-h3 {
-  font-size: 2.5rem;
-  font-weight: bold;
-  margin-bottom: 2rem;
-  color: #333;
-}
-
-p {
-  font-size: 1.1rem;
-  line-height: 1.8;
-  color: #555;
-}
-
-footer {
-  background-color: #000;
-  margin-top: 4rem;
-}
-
-footer p {
-  margin: 0;
-  color: #fff;
-}
-
+/* Responsividade */
 @media (max-width: 768px) {
   .hero {
     padding: 2rem 0;
   }
 
-  h2 {
+  h1,
+  h2,
+  h3 {
     font-size: 2rem;
   }
 
@@ -136,5 +138,10 @@ footer p {
 
   .icon-square i {
     font-size: 1.2rem;
+  }
+
+  .subtitle {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
   }
 }

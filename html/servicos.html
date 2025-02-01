@@ -10,7 +10,7 @@
   <!-- Bootstrap Icons -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   <!-- Favicon -->
-  <link rel="icon" type="image/x-icon" href="../assets/security-shield.ico">
+  <link rel="icon" type="image/x-icon" href="../assets/favicon.ico">
   <!--CSS-->
   <link rel="stylesheet" href="../css/servicos.css">
   <link rel="stylesheet" href="../css/footer.css">
@@ -50,24 +50,12 @@
   </nav>
   <!--Navbar-->
 
-  <!-- Hero Section -->
-  <div class="hero container col-xxl-8 px-4 py-5 my-5">
-    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-      <div class="col-10 col-sm-8 col-lg-6">
-        <img class="hero-img" src="../assets/security-shield.svg" loading="lazy">
-      </div>
-      <div class="col-lg-6">
-        <h1 class="display-5 lh-1 mb-3 title">Nossos Serviços</h1>
-        <p class="lead">Oferecemos soluções de cybersegurança personalizadas para proteger sua empresa contra ameaças
-          digitais. Conheça nossos serviços e escolha o plano ideal para suas necessidades.</p>
-      </div>
-    </div>
-  </div>
-  <!-- Hero Section -->
-
   <!-- Serviços -->
-  <div class="container px-4 py-5 my-5">
-    <h2 class="pb-2 border-bottom">Nossos Serviços</h2>
+  <div class="container px-4 py-5 my-3 mt-5">
+    <div class="section-title text-center">
+      <h2>Serviços</h2>
+      <p>Os melhores serviços ao seu alcance</p>
+    </div>
     <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
       <!-- Consultoria -->
       <div class="col d-flex align-items-stretch" data-aos="fade-up">
@@ -131,7 +119,7 @@
           <div class="icon-square">
             <i class="bi bi-code-slash"></i>
           </div>
-          <h3>Desenvolvimento Seguro</h3>
+          <h3>Desenvolvimento</h3>
           <p>Oferecemos consultoria e práticas para garantir que o desenvolvimento de software seja seguro desde o
             início.</p>
         </div>
@@ -141,112 +129,136 @@
   <!-- Serviços -->
 
   <!-- Pricing (Preços) -->
-  <div class="container px-4 py-5 my-5">
-    <h2 class="pb-2 border-bottom text-center">Planos e Preços</h2>
-    <div class="row row-cols-1 row-cols-md-3 g-4 text-center">
-
-      <!-- Plano Básico -->
-      <div class="col" data-aos="fade-up">
-        <div class="card pricing-card shadow-lg">
-          <div class="card-header py-4 bg-success text-white">
-            <h4 class="my-0 fw-bold"><i class="bi bi-shield-lock"></i> Básico</h4>
+  <section id="pricing" class="pricing-content section-padding">
+    <div class="container">
+      <div class="section-title text-center">
+        <h2>Planos</h2>
+        <p>Escolha o plano que melhor atende às suas necessidades.</p>
+      </div>
+      <div class="row text-center">
+        <!-- Plano Básico -->
+        <div class="col-lg-4 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.1s">
+          <div class="pricing_design">
+            <div class="single-pricing">
+              <div class="price-head">
+                <i class="bi bi-shield-lock-fill"></i>
+                <h2>Básico</h2>
+                <h1>R$ 299</h1>
+                <span>/mês</span>
+              </div>
+              <ul>
+                <li>
+                  <i class="bi bi-check-circle-fill"></i>
+                  <span>Consultoria inicial</span>
+                </li>
+                <li>
+                  <i class="bi bi-check-circle-fill"></i>
+                  <span>Monitoramento básico</span>
+                </li>
+                <li>
+                  <i class="bi bi-check-circle-fill"></i>
+                  <span>Suporte por e-mail</span>
+                </li>
+                <li>
+                  <i class="bi bi-check-circle-fill"></i>
+                  <span>Relatórios mensais</span>
+                </li>
+              </ul>
+              <a href="#" class="price_btn">Assinar</a>
+            </div>
           </div>
-          <div class="card-body">
-            <h1 class="pricing-card-title">R$ 299<small class="text-muted fw-light">/mês</small></h1>
-            <ul class="list-unstyled mt-3 mb-4">
-              <li><i class="bi bi-check-circle-fill"></i> Consultoria inicial</li>
-              <li><i class="bi bi-check-circle-fill"></i> Monitoramento básico</li>
-              <li><i class="bi bi-check-circle-fill"></i> Suporte por e-mail</li>
-              <li><i class="bi bi-check-circle-fill"></i> Relatórios mensais</li>
-            </ul>
-            <button type="button" class="w-100 btn btn-lg btn-outline-success">Assinar</button>
+        </div>
+
+        <!-- Plano Intermediário -->
+        <div class="col-lg-4 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s">
+          <div class="pricing_design">
+            <div class="single-pricing">
+              <div class="price-head">
+                <i class="bi bi-shield-fill-check"></i>
+                <h2>Intermediário</h2>
+                <h1>R$ 599</h1>
+                <span>/mês</span>
+              </div>
+              <ul>
+                <li>
+                  <i class="bi bi-check-circle-fill"></i>
+                  <span>Consultoria avançada</span>
+                </li>
+                <li>
+                  <i class="bi bi-check-circle-fill"></i>
+                  <span>Monitoramento completo</span>
+                </li>
+                <li>
+                  <i class="bi bi-check-circle-fill"></i>
+                  <span>Suporte por e-mail e chat</span>
+                </li>
+                <li>
+                  <i class="bi bi-check-circle-fill"></i>
+                  <span>Relatórios semanais</span>
+                </li>
+              </ul>
+              <a href="#" class="price_btn">Assinar</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Plano Avançado -->
+        <div class="col-lg-4 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
+          <div class="pricing_design">
+            <div class="single-pricing">
+              <div class="price-head">
+                <i class="bi bi-award-fill"></i>
+                <h2>Avançado</h2>
+                <h1>R$ 999</h1>
+                <span>/mês</span>
+              </div>
+              <ul>
+                <li>
+                  <i class="bi bi-check-circle-fill"></i>
+                  <span>Consultoria personalizada</span>
+                </li>
+                <li>
+                  <i class="bi bi-check-circle-fill"></i>
+                  <span>Monitoramento 24/7</span>
+                </li>
+                <li>
+                  <i class="bi bi-check-circle-fill"></i>
+                  <span>Suporte prioritário</span>
+                </li>
+                <li>
+                  <i class="bi bi-check-circle-fill"></i>
+                  <span>Relatórios diários</span>
+                </li>
+              </ul>
+              <a href="#" class="price_btn">Assinar</a>
+            </div>
           </div>
         </div>
       </div>
-
-      <!-- Plano Intermediário -->
-      <div class="col" data-aos="fade-up" data-aos-delay="100">
-        <div class="card pricing-card shadow-lg">
-          <div class="card-header py-4 bg-success text-white">
-            <h4 class="my-0 fw-bold"><i class="bi bi-shield-check"></i> Intermediário</h4>
-          </div>
-          <div class="card-body">
-            <h1 class="pricing-card-title">R$ 599<small class="text-muted fw-light">/mês</small></h1>
-            <ul class="list-unstyled mt-3 mb-4">
-              <li><i class="bi bi-check-circle-fill"></i> Consultoria especializada</li>
-              <li><i class="bi bi-check-circle-fill"></i> Monitoramento 24/7</li>
-              <li><i class="bi bi-check-circle-fill"></i> Suporte por e-mail e chat</li>
-              <li><i class="bi bi-check-circle-fill"></i> Relatórios semanais</li>
-            </ul>
-            <button type="button" class="w-100 btn btn-lg btn-success">Assinar</button>
-          </div>
-        </div>
-      </div>
-
-      <!-- Plano Avançado -->
-      <div class="col" data-aos="fade-up" data-aos-delay="200">
-        <div class="card pricing-card shadow-lg border-success">
-          <div class="card-header py-4 bg-success text-white">
-            <h4 class="my-0 fw-bold"><i class="bi bi-award-fill"></i> Avançado</h4>
-          </div>
-          <div class="card-body">
-            <h1 class="pricing-card-title">R$ 999<small class="text-muted fw-light">/mês</small></h1>
-            <ul class="list-unstyled mt-3 mb-4">
-              <li><i class="bi bi-check-circle-fill"></i> Consultoria personalizada</li>
-              <li><i class="bi bi-check-circle-fill"></i> Monitoramento avançado</li>
-              <li><i class="bi bi-check-circle-fill"></i> Suporte 24/7</li>
-              <li><i class="bi bi-check-circle-fill"></i> Relatórios diários</li>
-            </ul>
-            <button type="button" class="w-100 btn btn-lg btn-success">Assinar</button>
-          </div>
-        </div>
-      </div>
-
     </div>
-  </div>
+  </section>
   <!-- Pricing -->
 
-
   <!-- Rodapé -->
-  <footer class="footer">
-    <div class="container text-center p-4">
-      <!-- Seção: Redes Sociais -->
-      <section class="mb-4">
-        <!-- Facebook -->
-        <a class="btn-floating facebook" href="#!" role="button">
-          <i class="bi bi-facebook"></i>
-        </a>
-
-        <!-- Twitter -->
-        <a class="btn-floating twitter" href="#!" role="button">
-          <i class="bi bi-twitter"></i>
-        </a>
-
-        <!-- Google -->
-        <a class="btn-floating google" href="#!" role="button">
-          <i class="bi bi-google"></i>
-        </a>
-
-        <!-- Instagram -->
-        <a class="btn-floating instagram" href="#!" role="button">
-          <i class="bi bi-instagram"></i>
-        </a>
-
-        <!-- LinkedIn -->
-        <a class="btn-floating linkedin" href="#!" role="button">
-          <i class="bi bi-linkedin"></i>
-        </a>
-
-        <!-- GitHub -->
-        <a class="btn-floating github" href="#!" role="button">
+  <footer class="footer bg-dark-blue py-4">
+    <div class="container text-center">
+      <!-- Redes Sociais -->
+      <div class="social-icons mb-3">
+        <a href="#" class="text-white me-3">
           <i class="bi bi-github"></i>
         </a>
-      </section>
-    </div>
+        <a href="#" class="text-white me-3">
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="#" class="text-white">
+          <i class="bi bi-instagram"></i>
+        </a>
+      </div>
 
-    <!-- Copyright -->
-    <div class="copyright text-center">
-      © 2025 Copyright: NovaTech
+      <!-- Texto de Copyright -->
+      <p class="text-white mb-0">
+        © 2025 NovaTech. Todos os direitos reservados.
+      </p>
     </div>
   </footer>
   <!-- Rodapé -->

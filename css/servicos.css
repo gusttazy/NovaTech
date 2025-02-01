@@ -12,11 +12,6 @@
   align-items: center;
   justify-content: center;
   margin-right: 1rem;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  transition:
-    transform 0.3s ease,
-    box-shadow 0.3s ease;
-  border: 1px solid #e0e0e0;
 }
 
 .icon-square i {
@@ -25,17 +20,12 @@
   transition: color 0.3s ease;
 }
 
-.icon-square:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
-}
-
 .icon-square .bi-gear {
   color: #007bff;
 }
 
 .icon-square .bi-shield-check {
-  color: #28a745;
+  color: #007bff;
 }
 
 .icon-square .bi-people {
@@ -82,7 +72,7 @@ p {
 }
 
 .service-card:hover {
-  transform: translateY(-10px);
+  transform: translateY(-5px);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
 }
 
@@ -100,82 +90,118 @@ p {
   flex-grow: 1;
 }
 
-.pricing-card {
-  background-color: #fff;
-  border-radius: 12px;
-  padding: 1.5rem;
+.pricing-content {
+  position: relative;
+}
+
+.pricing_design {
+  position: relative;
+  margin: 0px 15px;
+}
+
+.pricing_design .single-pricing {
+  background: #fff;
+  padding: 60px 40px;
+  border-radius: 30px;
+  box-shadow: 0 10px 40px -10px rgba(0, 64, 128, 0.2);
+  position: relative;
+  z-index: 1;
   transition:
     transform 0.3s ease,
     box-shadow 0.3s ease;
-  margin-bottom: 1.5rem;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  border: 1px solid #e0e0e0;
 }
 
-.pricing-card:hover {
+.pricing_design .single-pricing:hover {
   transform: translateY(-10px);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 15px 50px rgba(0, 0, 0, 0.2);
 }
 
-.pricing-card .card-header {
-  padding: 1.5rem;
-  color: #fff;
-  border-radius: 12px 12px 0 0;
-  transition: background-color 0.3s ease;
+.price-head {
+  text-align: center;
 }
 
-.pricing-card .card-body {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  padding: 2rem;
+.price-head i {
+  font-size: 3rem; /* Tamanho aumentado dos ícones */
+  color: #007bff;
+  margin-bottom: 15px;
 }
 
-.pricing-card .pricing-card-title {
-  font-size: 2.5rem;
-  font-weight: bold;
-  margin-bottom: 1.5rem;
+.price-head h2 {
+  margin-bottom: 20px;
+  font-size: 26px;
+  font-weight: 600;
+  color: #333;
 }
 
-.pricing-card .btn {
-  margin-top: 1.5rem;
-  transition:
-    background-color 0.3s ease,
-    transform 0.3s ease;
-}
-
-.pricing-card:hover .btn {
-  transform: translateY(-5px);
-}
-
-.bg-success {
-  background-color: #28a745 !important;
-}
-
-.bg-warning {
-  background-color: #fd7e14 !important;
-}
-
-.bg-danger {
-  background-color: #dc3545 !important;
-}
-
-.pricing-card .bi-shield-lock,
-.pricing-card .bi-shield-check,
-.pricing-card .bi-award-fill {
-  color: #fff;
-}
-
-.pricing-card .bi-check-circle-fill {
-  color: #28a745;
-}
-
-.pricing-card .bi-check-circle-fill:hover {
+.price-head h1 {
+  font-weight: 600;
+  margin-top: 15px;
+  margin-bottom: 5px;
   color: #007bff;
 }
 
+.price-head span {
+  color: #777;
+}
+
+.single-pricing ul {
+  list-style: none;
+  margin-top: 30px;
+  padding: 0;
+}
+
+.single-pricing ul li {
+  display: flex;
+  align-items: center; /* Alinha ícone e texto verticalmente */
+  margin-bottom: 15px;
+  color: #555;
+}
+
+.single-pricing ul li i {
+  font-size: 1.25rem; /* Tamanho ajustado dos ícones */
+  color: #007bff;
+  margin-right: 10px; /* Espaço entre ícone e texto */
+}
+
+.single-pricing ul li span {
+  text-align: left; /* Alinha o texto à esquerda */
+}
+
+.price_btn {
+  background: #007bff;
+  padding: 10px 30px;
+  color: #fff;
+  display: inline-block;
+  margin-top: 20px;
+  border-radius: 30px;
+  transition: background 0.3s ease;
+  text-decoration: none;
+}
+
+.price_btn:hover {
+  background: #006bdd;
+}
+
+.section-title {
+  margin-bottom: 60px;
+}
+
+.section-title h2 {
+  font-size: 45px;
+  font-weight: 600;
+  margin-top: 0;
+  position: relative;
+  text-transform: capitalize;
+  color: #333;
+}
+
+.section-title p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #555;
+}
+
+/* Responsividade */
 @media (max-width: 768px) {
   .hero {
     padding: 2rem 0;
@@ -209,5 +235,27 @@ p {
 
   .service-card p {
     font-size: 0.95rem;
+  }
+
+  .pricing_design .single-pricing {
+    padding: 40px 20px;
+    margin-top: 20px;
+  }
+
+  .price-head h2 {
+    font-size: 22px;
+  }
+
+  .price-head h1 {
+    font-size: 28px;
+  }
+
+  .single-pricing ul li {
+    font-size: 14px;
+  }
+
+  .price_btn {
+    padding: 8px 20px;
+    font-size: 14px;
   }
 }
